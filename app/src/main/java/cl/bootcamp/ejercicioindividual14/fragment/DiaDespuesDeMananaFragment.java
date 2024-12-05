@@ -1,7 +1,5 @@
 package cl.bootcamp.ejercicioindividual14.fragment;
 
-package cl.bootcamp.ejercicioindividual13.fragment;
-
 import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
