@@ -10,6 +10,7 @@ import androidx.fragment.app.Fragment;
 import androidx.navigation.Navigation;
 import cl.bootcamp.ejercicioindividual14.R;
 import cl.bootcamp.ejercicioindividual14.databinding.FragmentDefaultBinding;
+
 public class DefaultFragment extends Fragment {
 
     private FragmentDefaultBinding binding;
