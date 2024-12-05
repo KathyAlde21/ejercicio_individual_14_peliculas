@@ -7,6 +7,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import androidx.fragment.app.Fragment;
 
+import java.util.Objects;
+
 import cl.bootcamp.ejercicioindividual14.MainActivity;
 import cl.bootcamp.ejercicioindividual14.R;
 
@@ -19,7 +21,7 @@ public class MainFragment extends Fragment {
         Button button1 = view.findViewById(R.id.button1);
 
         button1.setOnClickListener(v -> {
-            ((MainActivity) getActivity()).navigateToFragment(
+            ((MainActivity) requireActivity()).navigateToFragment(
                     VideoFragment.newInstance("https://www.youtube.com/embed/example1")
             );
         });

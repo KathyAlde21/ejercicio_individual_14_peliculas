@@ -22,4 +22,9 @@
     <string name="cdEraHielo">La Era de Hielo</string>
     <string name="cdAvengers">Avengers End Game</string>
 
+    <!--    links videos -->
+    <string name="sVideo1">Video 1</string>
+    <string name="sVideo2">Video 2</string>
+    <string name="sTodo">TODO</string>
+
 </resources>
